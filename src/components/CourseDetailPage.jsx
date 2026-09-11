@@ -128,10 +128,6 @@ function CourseDetailPage({ course, sessionEmail, onBack, onStartTest }) {
                 <span className="meta-label">Duration:</span>
                 <span className="meta-value">{course.duration}</span>
               </div>
-              <div className="meta-row">
-                <span className="meta-label">Students:</span>
-                <span className="meta-value">{course.students?.toLocaleString()}</span>
-              </div>
             </div>
           </div>
 
