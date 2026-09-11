@@ -17,15 +17,12 @@
   box-sizing: border-box;
 }
 
-html, body {
+body {
   margin: 0;
-  padding: 0;
-  width: 100%;
   min-width: 320px;
   min-height: 100vh;
   background-color: #F3F3F3;
   color: #000000;
-  overflow-x: hidden;
 }
 
 button {
@@ -36,8 +33,5 @@ button {
 #root {
   min-height: 100vh;
   background-color: #F3F3F3;
-  width: 100%;
-  overflow-x: hidden;
 }
-
 

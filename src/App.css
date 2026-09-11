@@ -4,7 +4,6 @@
   flex-direction: column;
   background: #F3F3F3;
   color: #000000;
-  width: 100%;
 }
 
 .navbar {
@@ -13,7 +12,6 @@
   position: sticky;
   top: 0;
   z-index: 100;
-  width: 100%;
 }
 
 .navbar-container {
@@ -23,7 +21,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
 }
 
 .navbar-brand {
@@ -32,7 +29,6 @@
   color: #A100FF;
   background: none;
   -webkit-text-fill-color: #A100FF;
-  cursor: pointer;
 }
 
 .navbar-user {
@@ -73,7 +69,6 @@
   border-top: 1px solid #E5E5E5;
   padding: 1.5rem 2rem;
   text-align: center;
-  width: 100%;
 }
 
 .footer-container {
@@ -85,11 +80,11 @@
 
 @media (max-width: 768px) {
   .navbar-container {
-    padding: 0.8rem 1rem;
+    padding: 1rem;
   }
 
   .navbar-brand {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 
   .user-email {
@@ -97,17 +92,7 @@
   }
 
   .logout-btn {
-    padding: 0.4rem 0.8rem;
-    font-size: 0.8rem;
-  }
-
-  .footer {
-    padding: 1rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .navbar-brand {
-    font-size: 1rem;
+    padding: 0.4rem 1rem;
+    font-size: 0.85rem;
   }
 }
